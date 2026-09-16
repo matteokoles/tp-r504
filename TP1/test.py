@@ -20,3 +20,6 @@ def test_3():
 def test_exc_1():
     with pytest.raises(Exception):
         f.puissance(0,-1)
+
+def test_4():
+    assert f.puissance(0,0) == 1
